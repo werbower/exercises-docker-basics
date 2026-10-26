@@ -1,0 +1,2 @@
+docker build -t react12 .
+docker run --name react12 -d -p 127.0.0.1:5001:5001 react12
