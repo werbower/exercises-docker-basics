@@ -1,0 +1,2 @@
+docker build -t java8 .
+docker run -d --name java8 -p 127.0.0.1:8080:8080 java8
