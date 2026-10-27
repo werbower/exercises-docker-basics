@@ -1,0 +1,2 @@
+docker build -t goapp .
+docker run --name goapp -p 127.0.0.1:8080:8080 goapp
